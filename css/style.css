@@ -1,0 +1,75 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 50px;
+  color: #001c33;
+  background-color: #e4e4e4;
+  background-image: url('../images/background.png')
+}
+
+h1{
+  font-family: 'Roboto Slab', serif;
+  padding: 6%;
+}
+
+h2{
+  font-family: 'Cabin Sketch', cursive;
+  padding: 2%;
+}
+
+/* Sections */
+
+.section {
+  padding-right: 20%;
+  display: none;
+}
+
+#about {
+}
+
+#unique {
+}
+
+
+footer {
+  background-color: #001c33;
+  color: white;
+  padding: 50px;
+  width: 100%;
+  margin-left: -50px;
+}
+
+/* MENU */
+
+a:link{
+  color: #e4e4e4;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6ca1cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+button{
+  background-color: #004680;
+  border: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  display: block;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #6ca1cc;
+}
+
+button:active {
+  background-color: #6cb1cc;
+}
