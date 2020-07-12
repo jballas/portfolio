@@ -4,7 +4,8 @@ body {
   margin: 50px;
   color: #001c33;
   background-color: #e4e4e4;
-  background-image: url('../images/background.png')
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
 }
 
 h1{
@@ -24,14 +25,16 @@ h2{
   display: none;
 }
 
-#about {
+#location {
+  display: flex;
+  align-items: center ;
 }
 
 #unique {
 }
 
 
-footer {
+header, footer {
   background-color: #001c33;
   color: white;
   padding: 50px;
