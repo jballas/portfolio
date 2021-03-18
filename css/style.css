@@ -29,6 +29,17 @@ ul, li {
   line-height: 1.5;
 }
 
+/*
+svg {
+  width: 5%;
+  fill:#33BA99;
+}
+
+svg:hover {
+  width:6%;
+  fill: #3E4C8A;
+}
+*/
 
 /* Sections */
 
