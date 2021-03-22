@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 50px;
   color: #001c33;
   background-color: #00FF7F;
@@ -10,19 +10,20 @@ body {
 }
 
 h1{
-  font-family: 'Roboto Slab', serif;
-  padding: 6%;
+  font-family: 'Special Elite', cursive;
+  padding: 3%;
   font-size: 400%;
 }
 
 h2{
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Special Elite', cursive;
+
   padding: 2%;
   font-size:300%;
 }
 
 h3{
-    font-family: 'Cabin Sketch', cursive;
+  font-family: 'Special Elite', cursive;
 }
 
 ul, li {
