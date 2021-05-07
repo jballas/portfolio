@@ -114,11 +114,11 @@ footer {
 
 a:link{
   color: #e4e4e4;
-  text-decoration: none;
+
 }
 
 a:visited {
-  color: #00FFFF;
+  color: #00aaFF;
   text-decoration: none;
 }
 
@@ -131,12 +131,12 @@ background-color: Transparent;
   border: none;
   cursor: pointer;
   padding: 15px 20px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   display: block;
   width: 200px;
 }
 
 button:hover {
-  background-color: #00FFFF;
+  background-color: #00aaFF;
 }
