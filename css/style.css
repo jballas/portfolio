@@ -2,9 +2,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 50px;
-  color: #001c33;
-  background-color: #00FF7F;
-  background-image: linear-gradient(30deg, #00FF7F, #00FFFF);
+  color: #242628;
+  background-color: #637978;
+
   /*background-image: url('../images/background.png');*/
   background-repeat: no-repeat;
 }
