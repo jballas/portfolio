@@ -5,6 +5,7 @@ $(document).ready(function(){
     $('.section').slideToggle();
   });
 
+
   $("#step1").click(function(){
       $("#box1").slideToggle("slow", function(){
         $("#step1").hide();
