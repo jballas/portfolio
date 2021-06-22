@@ -17,7 +17,6 @@ h1{
 
 h2{
   font-family: 'Special Elite', cursive;
-
   padding: 2%;
   font-size:300%;
 }
@@ -34,24 +33,36 @@ h4{
     text-transform: uppercase;
     font-size: 105%;
      letter-spacing: 2px;
-
 }
 
 ul, li {
   line-height: 1.5;
 }
 
-/*
+
+/* SVG ANIMATION
+Tutorial by https://css-tricks.com/svg-line-animation-works/*/
+
 svg {
-  width: 5%;
-  fill:#33BA99;
+  width: 80%;
+  fill: none;
+  stroke: #3E4C8A;
+  stroke-width: 0.2106;
+  stroke-miterlimit: 10;
 }
 
-svg:hover {
-  width:6%;
-  fill: #3E4C8A;
+.path {
+stroke-dasharray: 13051.09;
+stroke-dashoffset: 13051.09;
+  animation: dash 5s linear forwards;
+  /*animation-timing-function: ease-out = cubic-bezier(0.39, 0.58, 0.57, 1);*/
 }
-*/
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 8700.73;
+  }
+}
 
 /* Sections */
 
@@ -68,34 +79,41 @@ svg:hover {
 }
 
 #location, #identity {
-  /*display: flex;
-  align-items: center ;*/
+  display: flex;
+  align-items: center;
   font-weight: bold;
   font-size: .8em;
 }
-/*
+
 #identity{
   position: relative;
   left: 50px;
   top: -50px;
-}*/
+}
 
-
+/*
 canvas {
   float: right;
 }
 
 .top{
   position:absolute;
-  right:10px;
+  left:150px;
   text-align: right;
+}
+*/
+
+.feature{
+  text-align: center;
+  float: right;
+  width: 50%;
 }
 
 footer {
     padding: 20px;
-    width: 100%;
   font-weight: bold;
   font-size: .8em;
+
 }
 
 .row {
