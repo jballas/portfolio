@@ -1,44 +1,46 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 50px;
-  color: #333;
-  background-color: #3eaca7;
+/*  background-color: #3eaca7;*/
+  margin: 0;
+  padding: 0;
 
-  /*background-image: url('../images/background.png');*/
-  background-repeat: no-repeat;
 }
 
 h1{
   font-family: 'Special Elite', cursive;
-  padding: 3%;
-  font-size: 400%;
+  padding: 2%;
+  font-size: 4em;
 }
 
 h2{
   font-family: 'Special Elite', cursive;
   padding: 2%;
-  font-size:300%;
+  font-size: 3em;
 }
 
 h3{
   font-family: 'Special Elite', cursive;
-  font-size: 150%;
+  font-size: 2em;
   background-color: #8a92a4;
-  padding: 20px;
+  padding: 1%;
 }
 
 h4{
   font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 105%;
+    font-size: 1.8em;
      letter-spacing: 2px;
 }
 
 ul, li {
   line-height: 1.5;
+  list-style-type: none;
 }
 
+.extra{
+  text-transform: uppercase;
+}
 
 /* SVG ANIMATION
 Tutorial by https://css-tricks.com/svg-line-animation-works/
@@ -51,13 +53,14 @@ svg {
   stroke: #3E4C8A;
   stroke-width: 0.2106;
   stroke-miterlimit: 10;
+  padding: 50px;
 }
 
 .path {
 stroke-dasharray: 13051.09;
 stroke-dashoffset: 13051.09;
   animation: dash 5s linear forwards;
-  /*animation-timing-function: ease-out = cubic-bezier(0.39, 0.58, 0.57, 1);*/
+  /*animation-timing-function: ease-out cubic-bezier(0.39, 0.58, 0.57, 1);*/
 }
 
 @keyframes dash {
@@ -69,8 +72,8 @@ stroke-dashoffset: 13051.09;
 /* Sections */
 
 .section {
-  padding-right: 20%;
-  display: none;
+  padding: 5%;
+  /*display: none;*/
 }
 
 .transparent{
@@ -85,52 +88,44 @@ stroke-dashoffset: 13051.09;
   align-items: center;
   font-weight: bold;
   font-size: .8em;
+  margin-left: 50px;
+  padding-bottom: 20px;
 }
 
-#identity{
-  position: relative;
-  left: 50px;
-  top: -50px;
-}
-
-/*
-canvas {
-  float: right;
-}
 
 .top{
-  position:absolute;
-  left:150px;
-  text-align: right;
+  background-color: black;
+  color: white;
+  margin: 0;
 }
-*/
 
 .feature{
-  text-align: center;
-  float: right;
-  width: 50%;
+  background-color: #8a92a4;
 }
 
 footer {
     padding: 20px;
   font-weight: bold;
   font-size: .8em;
-
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-   padding: 4px;
 }
 
 .cases img{
  width: 100%;
 }
 
+/* Added sticky element to menu, per https://www.w3schools.com/howto/howto_css_sticky_element.asp*/
+
 .menu {
-  width: 800px;
+  width: 80%;
   display: inline-flex;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .box {
@@ -172,6 +167,7 @@ display: none;
   border: solid white 5px;
   border-radius: 2px;*/
 }
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -211,7 +207,7 @@ a:link{
 }
 
 a:visited {
-  color: #1b6e98;
+  color: #984d1b;
 }
 
 a:hover {
@@ -219,7 +215,7 @@ a:hover {
 }
 
 button{
-background-color: rgba(76, 187, 182, 0.87);
+background-color: rgba(230, 240, 32, 0.87);
   border: none;
   cursor: pointer;
   padding: 15px 20px;
@@ -230,7 +226,7 @@ background-color: rgba(76, 187, 182, 0.87);
 }
 
 button:hover {
-  background-color: #00aaFF;
+  background-color: #819d2d;
 }
 
 
@@ -290,3 +286,9 @@ animation-iteration-count: infinite;
   0%   {background-color: transparent;}
   100% {background-color: #333;}
 }
+
+/*
+old Colors
+button: background-color: rgba(76, 187, 182, 0.87);
+button hover:  background-color: #00aaFF;
+visited  color: #1b6e98; */
