@@ -1,11 +1,20 @@
 $(document).ready(function(){
 
+/* Old event, when I used the buttons to show/hide the details. Too much interaction required.
   $(".show_btn").click(function(){
     $(".show_btn").hide();
     $('.section').slideToggle();
   });
+*/
+
+/*New Event I'm thinking about adding to show a caption/explanation of design when you hover over an image.
+$(".summer").hover(fuction(){
+// $(".caption").show();
+});
+*/
 
 
+// Case Study section, where each step is hidden until the button is clicked.
   $("#step1").click(function(){
       $("#box1").slideToggle("slow", function(){
         $("#step1").hide();

@@ -36,6 +36,8 @@ h4{
 ul, li {
   line-height: 1.5;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .extra{
@@ -45,7 +47,6 @@ ul, li {
 /* SVG ANIMATION
 Tutorial by https://css-tricks.com/svg-line-animation-works/
 SVGGator is another wonderful resource!*/
-
 
 svg {
   width: 80%;
@@ -59,8 +60,8 @@ svg {
 .path {
 stroke-dasharray: 13051.09;
 stroke-dashoffset: 13051.09;
-  animation: dash 5s linear forwards;
-  /*animation-timing-function: ease-out cubic-bezier(0.39, 0.58, 0.57, 1);*/
+  animation: dash 5s cubic-bezier(0.39, 0.58, 0.57, 1) 3s forwards;
+  /*animation-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);*/
 }
 
 @keyframes dash {
@@ -92,7 +93,6 @@ stroke-dashoffset: 13051.09;
   padding-bottom: 20px;
 }
 
-
 .top{
   background-color: black;
   color: white;
@@ -117,6 +117,83 @@ footer {
 .cases img{
  width: 100%;
 }
+
+/* Summer time mode css */
+
+.blue{
+  background-color: #616DE8;
+}
+
+.white{
+  background-color: white;
+  width: 50%;
+  float: left;
+  margin-left: 2%;
+  padding: 2%;
+}
+
+.recipe ul{
+  display: flex;
+  flex-flow: wrap;
+}
+
+.recipe li{
+  padding: 0;
+  display: inline-flex;
+  width: 45%;
+  vertical-align: middle;
+}
+
+.recipe aside{
+float: left;
+margin-left: 1%;
+padding-top: 1%;
+padding-bottom: 5%;
+font-size: small;
+}
+
+.recipe #strawberry{
+  background-color: #FFC5E1;
+  padding: 5%;
+}
+.recipe #peach{
+  background-color: #F6F5E6;
+  padding: 10% 5% 5% 5%;
+}
+.recipe #chocolate{
+  background-color: #CCB39F;
+  padding: 5%;
+}
+.recipe #mint{
+  background-color: #B7FFCB;
+  padding: 5%;
+}
+
+.logo img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.summer li{
+  text-align: center;
+  display: flex;
+}
+
+.summer h3{
+  font-family: 'Kavoon', cursive;
+  background-color: transparent;
+  font-size: 5em;
+  text-align: center;
+}
+
+.summer h4 {
+  font-family: 'Kavoon', cursive;
+  text-align: center;
+  font-size: 2.5em;
+}
+
 
 /* Added sticky element to menu, per https://www.w3schools.com/howto/howto_css_sticky_element.asp*/
 
@@ -157,7 +234,6 @@ display: none;
   margin-top: 15px;
   vertical-align: middle;
   width: 70%;
-  border: 1px black solid
 }
 
 /* enlarge images */
@@ -203,7 +279,7 @@ a{
   }
 
 a:link{
-  color: #e4e4e4;
+  color: #777c14;
 }
 
 a:visited {
@@ -211,7 +287,7 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: #e27227;
 }
 
 button{
