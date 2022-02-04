@@ -8,8 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
 
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -17,139 +18,218 @@
   </head>
 
   <body>
+    <div class="top">
+      <img src="./images/art.jpg">
+        <h1>Julia Ballas Portfolio</h1>
+
+        <div id="identity"> writer and graphic designer</div>
+
+        <div id="location">Missoula, MT
+        </div>
+     </div>
+
+      <div class="menu">
+         <a href="index.html">     <button> Home</button></a>
+         <a href="about.html"><button> About</button></a>
+         <a href="#designs"><button>Design Gallery</button></a>
+         <a href="#prototype"><button>Prototypes</button></a>
+       </div>
+
+<!--<div class="section">
+
+<h3 id="summer"> Summer Mode Designs</h3>
+Summer section begins
+
+<div class="summer logo">
+  <img src="./images/summer/icecream-logo.png" alt="ice cream logo">
+
+<div class="summer blue">
+  <img src="./images/summer/icecream-maker.png" alt="ice cream freezer hand crank, in pieces">
+  <h3> Let's make Ice Cream</h3>
+  <h4> Ice <strong>+</strong> Salt <strong>+</strong> Armpower <strong>+</strong> homemade custard <strong>=</strong> Yum!</h4>
 
 
-<div class="top">
-  <img src="./images/art.jpg">
-    <h1>Julia Ballas</h1>
 
-    <div id="identity"> writer and graphic designer</div>
+  <div class="summer white">
+      <img src="./images/summer/delicious-treats.png" alt="delicious typography">
+    <h4>Custard Ice Cream</h4>
+    <ul>
+      <li> 1 &frac12 cups sugar</li>
+      <li> &frac14 tsp salt</li>
+      <li> 8 egg yolks, slightly beaten</li>
+      <li> 4 cups milk, heat if you’re infusing or melting chocolate</li>
+      <li> 2 pints cream</li>
+      <li> 1 TBSP vanilla</li>
+    </ul>
 
-    <div id="location">Missoula, MT
-    </div>
+    <ol>
+      <li>1. Mix sugar, salt and egg yolks and milk.</li>
+      <li>2. Cook over medium to med low 	heat until the mixture coats a spoon.</li>
+      <li>3. Cool, strain and add cream and other flavorings. </li>
+    	<li>4. Freeze</li>
+    </ol>
+    <p>(Makes 6 pints in hand crank mixer.)</p>
+
+  </div>
+
+  <div class="summer recipe">
+  <ul>
+    <li>
+      <figure id="strawberry">
+        <img src="./images/summer/strawberries.png" alt="strawberries">
+        <figcaption><strong> Strawberry Ice Cream</strong>
+       <p>Mash 1 quart berries, sprinkle with ½ cup sugar, cover and let stand at least 20 minutes. Strain to remove the seeds.</p></figcaption>
+     </figure>
+    </li>
+      <li>
+          <figure id="peach">
+            <img src="./images/summer/peach.png" alt="peaches">
+          <figcaption><strong> Peach Ice Cream</strong>
+           <p>Peel, slice and crush fruit to make 2 cups. Sprinkle with ½ cup sugar. Add lemon juice or almond flavoring.</p></figcaption>
+         </figure>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <figure id="chocolate">
+           <img src="./images/summer/chocolate.png" alt="chocolate bar">
+           <figcaption><strong> Chocolate Ice Cream </strong>
+           <p>Melt &frac12 pounds semisweet chocolate with milk. Increase sugar to 1 cup.</p></figcaption>
+         </figure>
+      </li>
+      <li>
+        <figure id="mint">
+            <img src="./images/summer/mint.png" alt="mint">
+            <figcaption><strong> Mint Ice Cream </strong>
+           <p>Flavor with oil of peppermint, instead of vanilla. Color delicately green, if desired.</p></figcaption>
+         </figure>
+      </li>
+    </ul>
+    <aside> Sources: Franny Farmer 1965. Serious Eats: www.seriouseats.com/how-many-eggs-should-i-use-to-make-ice-cream and www.seriouseats.com/ice-cream-myths</aside>
 </div>
 
-<div class="menu">
-   <a href="#about"><button>About me</button></a>
-  <a href="#skills"><button>Stats & Skills</button></a>
-   <a href="work.html"><button> Portfolio </button></a>
-  <a href="#unique"> <button>Credits</button></a>
- </div>
-
-      <!-- First section -->
-
-    <div class="section row" id="about">
-
-      <div class="column">
-            <h2>About</h2>
-      <p class="extra"> My name is Julia. I am a writer and visual media artist.</p>
-      <p>In 2018 I became a non-traditional student, returning to school to study visual and media design. This means <strong> versatility</strong>. I focus on creative arts such as typography, digital art, animation and creative coding. <br>
-        < <br>
-        < <br>
-        < <br>
-        I create vector graphics and imagine characters as I sketch, write, and code. </p>
-      </div>
-      <div class="column">
-        <svg version="1.0" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        viewBox="0 0 310 310" enable-background="new 0 0 310 310" xml:space="preserve">
-        <path class="path" d="M5,138.312L147.677,5.758L305,138.312
-        l-90.911,165.93l-127.212-0.007L5,138.312z M147.677,203.75l66.412,100.492L147.677,5.758l-60.8,298.478L147.677,203.75z M5,138.312
-        l142.677,65.438L305,138.312 M147.677,5.758L86.88,86.844l60.797,116.906l66.671-117.247L147.677,5.758z M147.677,203.75l0-197.993"
-        />
-        </svg>
-      </div>
-    </div>
-
-    <!-- Second section -->
-  <div class="section row">
-          <h2>Education</h2>
-    <div class="column" id="education">
-
-      <h4>University of Montana</h4>
-      <p><strong>2004</strong> Bachelor of Arts in English, focused on creative writing.*
-        </p>
-        <p><strong>2020</strong> Bachelor of Arts in Media Arts, focused on graphic design.*
-      </p>
-      <small>*graduated with honors</small>
-    </div>
-  </div>
-      <!-- Third Section -->
-  <div class="section row feature">
-    <h2>Skills and Stats</h2>
-      <div class="column" id="skills">
-
-            <!-- add image -->
-          <div><img src="./images/rock-hopper.png" alt="penguin"> </div>
-          <ul>
-            <li> Storytelling</li>
-            <li> Typing Speed: 60-70 wpm.
-
-          <li>I've visited 16 of 50 states, 17 countries and counting, 3 continents, chased 1 total solar eclipse </li>
-
-          <li> PC or Mac?       I'm faster on PC.</li>
-          
-        </ul>
-      </div>
-
-      <div class="column">
-      <h4> Designing In</h4>
-        <ul>
-          <!-- add image -->
-          <div> </div>
-
-              <li>Adobe Creative Suite:  Illustrator, InDesign, Photoshop</li>
-              <li>Coding art in HTML, CSS, JavaScript, p5.js</li>
-              <li>Prototyping: Figma and Adobe XD</li>
-              <li>Motion with After Effects, Premier Pro</li>
-              <li>Sketching: Procreate, paper with pencil, pen and ink.</li>
-            </ul>
-        <ul>
-          <ul>
-            <!-- add image -->
-            <li> <strong>Web Content Managers</strong> </li>
-              <ul>
-                  <li> WordPress </li>
-                  <li> pageDNA </li>
-                  <li> Montana State University's custom CMS</li>
-                  <li> Printer's Plan</li>
-              </ul>
-          </ul>
-
+  <div class="summer column">
+    <img src="./images/summer/icecream-text-logo.png" alt="Let's Eat Ice Cream logo">
+      <div class="row">
+          <div class="column">
+              <img src="./images/summer/colors.png" alt="brand colors">
+          </div>
+          <div class="column">
+              <img src="./images/summer/beach-ball.png" alt="beach ball icon">
+               <img src="./images/summer/icecream-cone.png" alt="ice cream cone">
+                 <img src="./images/summer/sliced.png" alt="watermelon slice">
             </div>
+            <div class="column">
+                <img src="./images/summer/popsicle2.png" alt="blue popsicle">
+                <img src="./images/summer/icecream-sugarcone.png" alt="ice cream sugar cone"></li
+                <img src="./images/summer/watermelon1.png" alt="watermleon">
+            </div>
+                      <img src="./images/summer/beach.png" alt="beach scene">
       </div>
 
-    <!-- Fourth section -->
+  </div>
+</div>
 
-    <div class="section row" id="unique">
-        <h2>Why me?</h2>
+</div>
+
+<div class="summer cases">
+  <h4> Illustrations</h4>
+<img src="./images/summer/summer1.png" alt="beach with two chairs">
+<img src="./images/summer/summer3.png" alt="summer sunrays">
+<h4>Concept Art and Sketches</h4>
+<img src="./images/summer/concept-art.jpg" alt="concept art and sketches">
+</div>
+
+  <div class="summer logo">
+
+  <img src="./images/summer/stay-cool-typography.png" alt="stay cool in dripping paint">
+
+  </div>
+End of Summer section -->
+</div>
+
+    <div class="row">
+
       <div class="column">
-        <p>I’m a storyteller at heart. I grew up in Montana but traveling inspires my imagination.</p>
-        <p>Balance is key in design work. Not only as a principle of design, but in the process. To me this means organizing my daily tasks, paying attention to the little details, and encouraging myself to be creative in all aspects of my life. </p>
-        <p>I strive for this everyday.</p>
+        <h4>Illustration</h4>
+        <a href="./images/dorm_room.png"><img src="./images/dorm_room.png" alt="dorm"></a>
+        <a href="./images/street_scene01.png"><img src="./images/street_scene01.png" alt="street"></a>
+        <a href="./images/street_scene02.png"><img src="./images/street_scene02.png" alt='street and cars'></a>
+        <a href="./images/tennis-player.png"><img src="./images/tennis-player.png" alt="tennis player"></a>
+        <a href="./images/animals.png"><img src="./images/animals.png" alt="animals"></a>
+        <img src="./images/bear.png" alt="bear">
+        <img src="./images/dahlia.png" alt="flower">
+
+
+      </div>
+
+      <div class="column">
+        <h4>Branding</h4>
+        <a href="./images/nni.png"><img src="./images/nni.png" alt="nano.gov logo redesign"></a>
+        <a href="./images/nni-proposal.png"><img src="./images/nni-proposal.png" alt="nano.gov branding proposal"></a>
+        <p><a href="https://www.nano.gov/">See the redesigned logo at nano.gov</></p>
+        <a href="./images/tameable-logo.png"><img src="./images/tameable-logo.png" alt="tameable logo"></a>
+        <img src="./images/80-adventures.png" alt="80 Adventures logo">
+
+        <img src="./images/avaClary-logo.png" alt="Ava Clary logo">
+        <img src="./images/ava-logo-square.png" alt="Ava Clary social logo">
+        <a href="./images/avaClary-mockup-template.png"><img src="./images/avaClary-mockup-template.png" alt=" Ava Clary set"></a>
+
+      </div>
+
+      <div class="column">
+        <h4>Print</h4>
+        <a href="./images/writing.png"><img src="./images/writing.png" alt="copywriting samples"></a>
+        <a href="./images/print1.jpg"><img src="./images/print1.jpg" alt="dance rackcard"></a>
+        <a href="./images/print2.jpg"><img src="./images/print2.jpg" alt="handbook"></a>
+        <p><a href="https://nexttechnetwork.org/nexttech-handbook/">Updated handbook is available on-line for students to download.</a></p>
+        <a href="./images/advertise.png"><img src="./images/advertise.png" alt="art spaces ad"></a>
+        <a href="./images/print3.jpg"><img src="./images/print3.jpg" alt="newsletter"></a>
+        <a href="./images/print4.jpg"><img src="./images/print4.jpg" alt="game design document: dragons"></a>
+        <a href="./images/print5.jpg"><img src="./images/print5.jpg" alt="infographic nanotechnology"></a>
+      </div>
+
+      <div class="column">
+        <h4> More Branding</h4>
+        <img src="./images/cherish-logo.png" alt="Cherish logo">
+        <img src="./images/ebook-banner.png" alt="ebook ad">
+        <img src="./images/easySignup.png" alt="signup ad">
+        <a href="./images/postcard.png"><img src="./images/postcard.png" alt="matchmaker postcard"></a>
+        <img src="./images/mockup.png" alt="mockup">
+        <img src="./images/social.png" alt="video thumbnails">
+
+      </div>
+
+      <div class="column">
+        <h4> Web</h4>
+        <img src="./images/main-page.png" alt="web design mockup">
+        <img src="./images/menu.png" alt="web design menu">
+        <img src="./images/meteroite.png" alt="mobile design mockup">
+        <p><a href="https://jballas.github.io/441_work/HW-9/index.html"> View the meteroite data here!</a></p>
+        <img src="./images/travel_photos.png" alt="travel photos mockup">
+
+      </div>
+
+      <div class="column">
+        <h4> Ux and UI </h4>
+        <img src="./images/web.png" alt="Eclipse design menus">
+        <img src="./images/web2.png" alt="Eclipse design web">
+        <img src="./images/web3.png" alt="Eclipse design mobile">
       </div>
     </div>
 
+</div>
+
+<div class="row cases" id="prototype">
+
+          <img src="./images/prototype.png">
+
+</div>
 
     <footer>
-      contact  julia.m.ballas [a] gmail.com
-      <div>
-        <p>Portfolio design: Summer Pinwheel <br>
-        Fonts: Roboto: regular, slab & Cabin Sketch<br>
-        Colors: Yellow rgb(230, 240, 32);
-      </div>
-
-      <!-- Old colors
-      Sketch in Motion: Colors: Blue-Green(#3eaca7);
-
-
-      <div class="section">
-        <p>Portfolio design: Tree Rings<br>
-        Fonts: Roboto: regular, slab & Cabin Sketch<br>
-        Colors: classic blue(#e4e4e4), dk blue (#001c33)
-      </div>
-
-      -->
-
+          contact |  julia.m.ballas [a] gmail.com
     </footer>
+
   </body>
-</html>
+
+  </html>

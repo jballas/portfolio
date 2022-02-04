@@ -59,7 +59,7 @@ svg {
 .path {
 stroke-dasharray: 13051.09;
 stroke-dashoffset: 13051.09;
-  animation: dash 5s cubic-bezier(0.39, 0.58, 0.57, 1) 3s forwards;
+  animation: dash 6s cubic-bezier(0.39, 0.58, 0.57, 1) 1s forwards;
   /*animation-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);*/
 }
 
@@ -103,6 +103,9 @@ stroke-dashoffset: 13051.09;
   background-color: black;
   color: white;
   margin: 0;
+}
+.top img {
+  width: 80%;
 }
 
 .feature{
@@ -252,8 +255,8 @@ display: none;
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
-    flex: 50%;
-    max-width: 60%;
+    flex: 60%;
+    max-width: 90%;
   }
 
   .menu{
@@ -273,7 +276,7 @@ display: none;
   .menu{
     flex: 100%;
     max-width: 100%;
-    display: block;
+    display: inline-flex;
   }
 }
 
