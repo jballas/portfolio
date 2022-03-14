@@ -8,28 +8,29 @@ body {
 
 h1{
   font-family: 'Special Elite', cursive;
+  font-size: 3.5em;
   padding: 2%;
-  font-size: 4em;
 }
 
 h2{
   font-family: 'Special Elite', cursive;
+  font-size: 2.5em;
   padding: 2%;
-  font-size: 3em;
 }
 
 h3{
+  background-color: #8a92a4;
   font-family: 'Special Elite', cursive;
   font-size: 2em;
-  background-color: #8a92a4;
   padding: 1%;
 }
 
 h4{
   font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-size: 1.8em;
-     letter-spacing: 2px;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 ul, li {
@@ -48,19 +49,18 @@ Tutorial by https://css-tricks.com/svg-line-animation-works/
 SVGGator is another wonderful resource!*/
 
 svg {
-  width: 80%;
   fill: none;
+  padding: 5%;
   stroke: #3E4C8A;
-  stroke-width: 0.2106;
   stroke-miterlimit: 10;
-  padding: 50px;
+  stroke-width: 0.2106;
 }
 
 .path {
-stroke-dasharray: 13051.09;
-stroke-dashoffset: 13051.09;
   animation: dash 6s cubic-bezier(0.39, 0.58, 0.57, 1) 1s forwards;
   /*animation-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);*/
+  stroke-dasharray: 13051.09;
+  stroke-dashoffset: 13051.09;
 }
 
 @keyframes dash {
@@ -76,6 +76,7 @@ stroke-dashoffset: 13051.09;
   /*display: none;*/
 }
 
+/* KEEP??
 .extraPadding{
   margin-top: 200px;
   margin-bottom: 50px;
@@ -89,12 +90,13 @@ stroke-dashoffset: 13051.09;
   opacity: 0.6;
   font-size: 80%;
 }
+*/
 
 #location, #identity {
-  display: flex;
   align-items: center;
-  font-weight: bold;
+  display: flex;
   font-size: .8em;
+  font-weight: bold;
   margin-left: 50px;
   padding-bottom: 20px;
 }
@@ -113,94 +115,9 @@ stroke-dashoffset: 13051.09;
 }
 
 footer {
-    padding: 20px;
-  font-weight: bold;
   font-size: .8em;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.cases img{
- width: 100%;
-}
-
-/* Summer time mode css */
-
-.blue{
-  background-color: #616DE8;
-}
-
-.white{
-  background-color: white;
-  width: 50%;
-  float: left;
-  margin-left: 2%;
-  padding: 2%;
-}
-
-.recipe ul{
-  display: flex;
-  flex-flow: wrap;
-}
-
-.recipe li{
-  padding: 0;
-  display: inline-flex;
-  width: 45%;
-  vertical-align: middle;
-}
-
-.recipe aside{
-float: left;
-margin-left: 1%;
-padding-top: 1%;
-padding-bottom: 5%;
-font-size: small;
-}
-
-.recipe #strawberry{
-  background-color: #FFC5E1;
+  font-weight: bold;
   padding: 5%;
-}
-.recipe #peach{
-  background-color: #F6F5E6;
-  padding: 10% 5% 5% 5%;
-}
-.recipe #chocolate{
-  background-color: #CCB39F;
-  padding: 5%;
-}
-.recipe #mint{
-  background-color: #B7FFCB;
-  padding: 5%;
-}
-
-.logo img{
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.summer li{
-  text-align: center;
-  display: flex;
-}
-
-.summer h3{
-  font-family: 'Kavoon', cursive;
-  background-color: transparent;
-  font-size: 5em;
-  text-align: center;
-}
-
-.summer h4 {
-  font-family: 'Kavoon', cursive;
-  text-align: center;
-  font-size: 2.5em;
 }
 
 
@@ -214,42 +131,24 @@ font-size: small;
   top: 0;
 }
 
-.box {
-background-color: white;
-width: 100%;
-border-left: 20px;
-padding: 20px;
-overflow: hidden;
-display: none;
-}
-
-.box img:hover{
-  width: 30%;
-  background-color: white;
-  padding: 10px;
-  border: solid black 2px;
-  position: absolute;
-}
-
 /* Image grid layout from W3Schools: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+    padding: 0 4px;
+}
+
 .column{
   flex: 25%;
   max-width: 33%;
- padding: 4px;
+  padding: 3%;
 }
 
 .column img {
-  margin-top: 15px;
+  /*border: solid #8a92a4 5px;*/
+  margin-top: 10%;
   vertical-align: middle;
-  width: 70%;
-}
-
-/* enlarge images */
-.column img:hover{
-  width: 75%;
-  /*padding: 10px;
-  border: solid white 5px;
-  border-radius: 2px;*/
+  width: 80%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
