@@ -41,9 +41,9 @@ function draw() {
     setTimeout(stop, 60000);
 
     // Set values to color variables. Using the Absolute Value to keep them from being decimales.
-    red = random( abs(200), abs(255) );
+    red = random( abs(20), abs(25) );
     green = 10;
-    blue = random( abs(20), abs(100) );
+    blue = random( abs(100), abs(150) );
     opacity = random ( abs(100), abs(255) );
 
     // Move the triangles around using translate and the randomwalker technique, restrict movement with modulo.
