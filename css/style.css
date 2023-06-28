@@ -152,7 +152,7 @@ footer {
   margin-right: auto;
   margin-top: 20px;
   width: 80%;
-  border: dotted #8a92a4 3px;
+  border: solid #8a92a4 3px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
