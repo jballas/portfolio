@@ -9,12 +9,16 @@ body {
 h1{
   font-family: 'Special Elite', cursive;
   font-size: 3.5em;
-  padding-top: 50px;
+  padding-top: 2%;
+  padding-left: 2%;
 }
 
 h2{
   font-family: 'Special Elite', cursive;
   font-size: 2.5em;
+  padding-left: 2%;
+  padding-bottom: 2%;
+
 }
 
 h3{
@@ -34,7 +38,7 @@ h4{
 
 ul, li {
   line-height: 1.5;
-  list-style-type: none;
+  list-style-type: disc;
   margin: 0;
   padding: 0;
 }
