@@ -48,7 +48,7 @@ ul, li {
     font-size: 2em;
 }
 
-/* SVG ANIMATION
+/* SVG ANIMATION FOR THE GEMSTONE ON ABOUT PAGE
 Tutorial by https://css-tricks.com/svg-line-animation-works/
 SVGGator is another wonderful resource!*/
 
@@ -71,7 +71,7 @@ svg {
     stroke-dashoffset: 8700.73;
   }
 }
-
+/* ANIMATION FOR THE WAVES
 .st1 {
   animation: wave 10s cubic-bezier(0.39, 0.58, 0.57, 1) .5s forwards;
   animation-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
@@ -82,7 +82,7 @@ svg {
     fill: #78C1BF;
   }
 }
-
+*/
 
 /* Sections */
 
@@ -156,9 +156,9 @@ footer {
 }
 
 .column{
-  flex: 50%;
-  max-width: 33%;
-  padding: 3%;
+  flex: 25%;
+  max-width: 50%;
+  padding-left: 5%;
 }
 
 .column img {
@@ -166,9 +166,13 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  width: 80%;
+  width: 50%;
+  padding: 2%;
+  border: 2px dotted #303649;
+}
 
-  border-bottom: 3px solid #303649;
+.column img:hover {
+  width: 52%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
