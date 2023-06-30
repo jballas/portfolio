@@ -10,13 +10,13 @@ h1{
   font-family: 'Special Elite', cursive;
   font-size: 3.5em;
   padding-top: 2%;
-  padding-left: 2%;
+  padding-left: 5%;
 }
 
 h2{
   font-family: 'Special Elite', cursive;
   font-size: 2.5em;
-  padding-left: 2%;
+  padding-left: 5%;
   padding-bottom: 2%;
 
 }
@@ -54,8 +54,7 @@ SVGGator is another wonderful resource!*/
 
 svg {
   fill: none;
-  padding: 5%;
-  stroke: #428a74;
+  stroke: #315D73;
   stroke-miterlimit: 10;
   stroke-width: 0.2106;
 }
@@ -91,18 +90,33 @@ svg {
 }
 
 .top{
-  background-color: black;
+  background-image: linear-gradient(#78C1BF, #315D73);
   color: white;
-  margin: 0;
-  position: relative;
-  margin-top: 400px;
-}
-.top img {
-  width: 80%;
+  margin:  0;
+  padding-top: 25px ;
 }
 
+.curve {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.curve svg {
+    position: relative;
+    display: block;
+    width: calc(133% + 1.3px);
+    height: 400px;
+}
+
+.curve .shape-fill {
+    fill: #315D73;
+}
+
+
 .feature{
-  background-color: #88aca1;
+  background-color: #315D73;
 }
 
 footer {
@@ -272,8 +286,16 @@ animation-iteration-count: infinite;
 }
 
 /*
+old colors: Spring Pinwheel
+.feature{background-color: #88aca1;}
+a:link{color: #147c2b;}
+a:visited {color: #1b3c98;}
+a:hover {color: #27b3ae;}
+button{ background-color: rgba(12, 175, 125, 0.87); }
+button:hover {background-color: #27b3ae;}
+
 old Colors
-  background-color: #3eaca7;
+background-color: #3eaca7;
 button: background-color: rgba(76, 187, 182, 0.87);
 button hover:  background-color: #00aaFF;
 visited  color: #1b6e98; */
