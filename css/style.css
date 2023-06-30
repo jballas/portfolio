@@ -59,19 +59,11 @@ svg {
   stroke-width: 0.2106;
 }
 
-.path {
-  animation: dash 5s cubic-bezier(0.39, 0.58, 0.57, 1) 1s forwards;
+.gem {
+  animation: dash 6s cubic-bezier(0.39, 0.58, 0.57, 1) .5s forwards;
   /*animation-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);*/
   stroke-dasharray: 13051.09;
   stroke-dashoffset: 13051.09;
-}
-
-.st0 .st1 .st3{
-  animation: dash 5s cubic-bezier(0.39, 0.58, 0.57, 1) 1s forwards;
-  animation-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
-  stroke-dasharray: 13051.09;
-  stroke-dashoffset: 13051.09;
-
 }
 
 @keyframes dash {
@@ -79,6 +71,18 @@ svg {
     stroke-dashoffset: 8700.73;
   }
 }
+
+.st1 {
+  animation: wave 10s cubic-bezier(0.39, 0.58, 0.57, 1) .5s forwards;
+  animation-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+@keyframes wave {
+  to {
+    fill: #78C1BF;
+  }
+}
+
 
 /* Sections */
 
