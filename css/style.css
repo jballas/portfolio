@@ -97,7 +97,7 @@ svg {
   display: flex;
   font-size: .8em;
   font-weight: bold;
-  margin-left: 50px;
+  padding-left: 5%;
   padding-bottom: 20px;
 }
 
@@ -166,6 +166,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  margin-bottom: 20%;
   width: 50%;
   padding: 2%;
   border: 2px dotted #303649;
