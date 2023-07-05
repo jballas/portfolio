@@ -37,11 +37,14 @@ h4{
 }
 
 ul, li {
-  line-height: 2;
+  line-height: 1.5;
   list-style-type: disc;
   margin: 0;
   padding: 0;
 }
+ p{
+   line-height: 1.5;
+ }
 
 .extra{
   text-transform: uppercase;
@@ -54,7 +57,7 @@ SVGGator is another wonderful resource!*/
 
 svg {
   fill: none;
-  stroke: #78C1B;
+  stroke: #78C1BF;
   stroke-miterlimit: 10;
   stroke-width: 0.2106;
 }
@@ -129,6 +132,7 @@ svg {
 
 .feature{
   background-color: #78C1BF;
+  color: black;
 }
 
 footer {
