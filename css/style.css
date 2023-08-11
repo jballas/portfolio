@@ -59,7 +59,7 @@ svg {
   fill: none;
   stroke: #78C1BF;
   stroke-miterlimit: 10;
-  stroke-width: 0.2106;
+  stroke-width: 0.04em;
 }
 
 .gem {
@@ -163,6 +163,7 @@ footer {
   flex: 25%;
   max-width: 50%;
   padding-left: 5%;
+  padding-bottom:2%;
 }
 
 .column img {
