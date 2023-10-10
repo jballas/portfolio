@@ -3,19 +3,17 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: black;
-  color: white;
 }
 
 h1{
-  font-family: 'Special Elite', cursive;
+  font-family: 'Courgette', cursive;
   font-size: 3.5em;
   padding-top: 2%;
   padding-left: 5%;
 }
 
 h2{
-  font-family: 'Special Elite', cursive;
+  font-family: 'Courgette', cursive;
   font-size: 2.5em;
   padding-left: 5%;
   padding-bottom: 2%;
@@ -24,7 +22,7 @@ h2{
 
 h3{
   background-color: #315D73;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Courgette', cursive;
   font-size: 2em;
   padding: .25%;
 }
@@ -34,6 +32,7 @@ h4{
   font-size: 1.8em;
   letter-spacing: 2px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 ul, li {
@@ -106,9 +105,9 @@ svg {
 
 .top{
   background-image: linear-gradient(#78C1BF, #315D73);
-  color: white;
   margin:  0;
   padding-top: 25px ;
+  width:100%;
 }
 
 .curve {
@@ -119,10 +118,11 @@ svg {
 }
 
 .curve svg {
-    position: relative;
+    position: relative ;
+    top:10px;
     display: block;
     width: 100% /*calc(133% + 1.3px)*/;
-    height: 400px;
+    height: 200px;
 }
 
 .curve .shape-fill {
@@ -146,8 +146,7 @@ footer {
 
 .menu {
   width: 80%;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: fixed;
   top: 0;
   display: inline-flex;
 }
@@ -174,7 +173,6 @@ footer {
   margin-bottom: 20%;
   width: 50%;
   padding: 2%;
-  background-color: white;
 }
 
 .column img:hover {
