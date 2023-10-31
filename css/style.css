@@ -73,18 +73,6 @@ svg {
     stroke-dashoffset: 8700.73;
   }
 }
-/* ANIMATION FOR THE WAVES
-.st1 {
-  animation: wave 10s cubic-bezier(0.39, 0.58, 0.57, 1) .5s forwards;
-  animation-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
-}
-
-@keyframes wave {
-  to {
-    fill: #78C1BF;
-  }
-}
-*/
 
 /* Sections */
 
@@ -106,7 +94,7 @@ svg {
 .top{
   background-image: linear-gradient(#78C1BF, #315D73);
   margin:  0;
-  padding-top: 25px ;
+  padding-top: 2px ;
   width:100%;
 }
 
@@ -119,9 +107,9 @@ svg {
 
 .curve svg {
     position: relative ;
-    top:10px;
+    top: 20px;
     display: block;
-    width: 100% /*calc(133% + 1.3px)*/;
+    width: 100%;
     height: 200px;
 }
 
@@ -133,6 +121,7 @@ svg {
 .feature{
   background-color: #78C1BF;
   color: black;
+  padding-right: 20%;
 }
 
 footer {
@@ -171,12 +160,12 @@ footer {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20%;
-  width: 50%;
+  width: 100%;
   padding: 2%;
 }
 
 .column img:hover {
-  width: 52%;
+  width: 98%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
