@@ -24,9 +24,9 @@ var opacity
 
 // Setup fuction
 function setup() {
-    var cnv = createCanvas(windowWidth, 400 );
+    var cnv = createCanvas(windowWidth/3, 400 );
     cnv.position(0, 0);
-    background(0);
+    background(255);
 
 }
 
