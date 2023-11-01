@@ -125,7 +125,8 @@ svg {
 .feature{
   background-color: #78C1BF;
   color: black;
-  padding-right: 30%;
+  margin-right: 30%;
+
 }
 
 footer {
@@ -135,15 +136,39 @@ footer {
   text-align: center;
 }
 
-
-/* Added sticky element to menu, per https://www.w3schools.com/howto/howto_css_sticky_element.asp*/
-
+/* old Menu, uses a fixed posistion
 .menu {
   width: 100%;
   position: fixed;
   top: 0;
   display: inline-flex;
+}*/
+
+/* Add a background color to the top navigation */
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  background-color: #27b3ae;
+  overflow: hidden;
+  float: right;
 }
+
+.topnav a{
+  float: left;
+  background-color: #27b3ae;
+  text-align: center;
+  padding: 15px 20px;
+  color: 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #34c0ad;
+  color: black;
+}
+
 
 /* Image grid layout from W3Schools: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
 .row {
@@ -155,7 +180,6 @@ footer {
   flex: 25%;
   max-width: 50%;
   padding: 2%;
-  border: green dotted 5px;
 }
 
 .column img {
@@ -165,7 +189,6 @@ footer {
   margin-top: 20px;
   margin-bottom: 2%;
   width: 60%;
-  border: greenyellow dotted 3px;
 }
 
 .special img{
@@ -201,7 +224,7 @@ footer {
   .feature{
     background-color: #78C1BF;
     color: black;
-    padding-right: 50%;
+    margin-right: 50%;
   }
 }
 
@@ -212,31 +235,16 @@ a{
   }
 
 a:link{
-  color: #D9BD89;
+  color: black;
 }
 
 a:visited {
-  color: #27b3a9;
+  color: #78C1BF;
 }
 
 a:hover {
-  color: #27b3ae;
-}
-
-button{
-background-color: #27b3ae;
-  border: none;
-  cursor: pointer;
-  padding: 15px 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  width: 200px;
-}
-
-button:hover {
   background-color: #78C1BF;
 }
-
 
 /* Shapes */
 .arrow{
