@@ -94,11 +94,7 @@ svg {
   padding-bottom: 20px;
 }
 
-.right-bar{
-  padding-left: 33%;
-  padding-top: 12%;
-  width: 100%;
-}
+
 
 
 /*
@@ -121,12 +117,6 @@ svg {
     fill: #315D73;
 }*/
 
-
-.feature{
-  background-color: #78C1BF;
-  color: black;
-  padding-right: 30%;
-}
 
 footer {
   font-size: .8em;
@@ -194,7 +184,17 @@ footer {
 .special img{
   width: 25%;
 }
+.feature{
+  background-color: #78C1BF;
+  color: black;
+  padding-right: 50%;
+}
 
+.right-bar{
+  padding-left: 33%;
+  padding-top: 12%;
+  width: 100%;
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -205,16 +205,17 @@ footer {
 
   .column{
     flex: 60%;
-    max-width: 100%;
+    max-width: 50%;
   }
     .menu {
       display: block;
 
     }
+ 
 
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the 1 columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 
   .column {
@@ -224,8 +225,14 @@ footer {
   .feature{
     background-color: #78C1BF;
     color: black;
-    padding-right: 50%;
+    padding-right: 20%;
   }
+  .right-bar{
+    padding:-left: 50%;
+    padding-top: 20%;
+    width: 50%;
+  }
+
 }
 
 /* MENU */
