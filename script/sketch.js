@@ -22,6 +22,7 @@ var green
 var blue
 var opacity
 
+
 // Setup fuction
 function setup() {
     var cnv = createCanvas(windowWidth/3, 400 );
