@@ -15,15 +15,15 @@ h1{
 h2{
   font-family: 'Courgette', cursive;
   font-size: 2em;
-  padding-left: 2%;
+  padding-left: 5%;
   padding-bottom: 2%;
 }
 
 h3{
   background-color: #315D73;
-  font-family: 'Courgette', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2em;
-  padding: .2%;
+  padding: 2%;
 }
 
 h4{
@@ -59,7 +59,7 @@ SVGGator is another wonderful resource!*/
 
 svg {
   fill: none;
-  stroke: #78C1BF;
+  stroke: #D2DBED;
   stroke-miterlimit: 10;
   stroke-width: 0.04em;
 }
@@ -71,9 +71,21 @@ svg {
   stroke-dashoffset: 13051.09;
 }
 
+.bella {
+  animation: drop 2s line(0, 228) 1s forwards;
+  stroke-dasharray: 228;
+  stroke-dashoffset: 228;
+}
+
 @keyframes dash {
   to {
     stroke-dashoffset: 8700.73;
+  }
+}
+
+@keyframes drop {
+  to {
+    stroke-dashoffset: 228;
   }
 }
 
@@ -170,6 +182,13 @@ footer {
   flex: 25%;
   max-width: 50%;
   padding: 2%;
+}
+
+.middle img{
+  flex: 25%;
+  max-width: 80%;
+  padding: 2%;
+  width: 1000%;
 }
 
 .column img {
