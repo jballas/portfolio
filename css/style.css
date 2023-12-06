@@ -211,6 +211,7 @@ footer {
 }
 
 .right-bar{
+  float: left;
   padding-left: 33%;
   padding-top: 20px;
   width: 100%;
