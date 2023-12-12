@@ -26,7 +26,8 @@ var opacity
 // Setup fuction
 function setup() {
     var cnv = createCanvas(windowWidth/3, 400 );
-    cnv.position(0, 0);
+    //cnv.position(0,0);
+    cnv.parent("canvas_art");
     background(255);
 
 }
