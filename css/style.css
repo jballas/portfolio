@@ -217,6 +217,10 @@ footer {
   padding-top: 20px;
 }
 
+.spacer{
+  padding: 50px 0;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
 
