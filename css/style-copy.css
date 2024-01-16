@@ -30,7 +30,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90%;
+  height: 80%;
   /*background: url(../images/palm-trees.png);*/
   background: url(../images/header-examples.png);
   background-color: #001B36;
@@ -98,15 +98,45 @@ body {
  * Call to Action
  * ----------------------------------------
  */
+
 .call-to-action{
-  border: #197dac 10px solid;
-  margin-top:50px;
+  padding: 50px;
 }
 
 .call-to-action img{
-  width: 50%;
+  width: 100%;
 }
 
+.extra{
+  font-family: 'Montserrat', sans serif;
+   font-size: 2rem;
+   font-weight: 200;
+}
+.splash{
+  background-color:#001B36;
+  width: 20vh;
+  height: 40vh;
+  float: right;
+  position: relative;
+  z-index: 2;
+}
+
+
+/**
+ * ----------------------------------------
+ * Gallery
+ * ----------------------------------------
+ */
+
+ .gallery{
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 80%;
+ }
+
+ .gallery img{
+  width: 50%;
+ }
 
 /**
  * ----------------------------------------
@@ -114,18 +144,24 @@ body {
  * ----------------------------------------
  */
 h1{
-  /* font-family: 'Courgette', cursive;*/
-   font-size: 3rem;
-   font-weight: 600;
+  font-family: 'Courgette', cursive;
+   font-size: 6em;
+   font-weight: 400;
    margin-bottom: 0;
  }
  
  h2{
-   /*font-family: 'Courgette', cursive;*/
-   font-size: 2rem;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2em;
    font-weight: 200;
    text-transform: capitalize;
    letter-spacing: 1.1rem;
    margin-top: 1rem;
+  }
+
+  p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    font-weight: 100;
   }
  

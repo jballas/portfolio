@@ -107,30 +107,6 @@ svg {
   padding-bottom: 20px;
 }
 
-
-
-
-/*
-.curve {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-
-.curve svg {
-      position: relative ;
-    top: 20px;
-    display: block;
-    width: 100%;
-    height: 200px;
-}
-
-.curve .shape-fill {
-    fill: #315D73;
-}*/
-
-
 footer {
   font-size: .8em;
   font-weight: bold;
