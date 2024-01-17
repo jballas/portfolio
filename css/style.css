@@ -254,6 +254,10 @@ footer {
 
 }
 
+img:hover {
+  width: 58%;
+}
+
 .special img{
   width: 25%;
 }
