@@ -17,13 +17,14 @@ h2{
 
 h3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.7em;
+  font-size: 1.9em;
+  text-align: center;
   padding: 2%;
 }
 
 h4{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.8em;
+  font-size: 1.7em;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align: center;
