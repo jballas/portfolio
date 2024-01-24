@@ -16,7 +16,6 @@ h2{
 }
 
 h3{
-  background-color: #315D73;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.7em;
   padding: 2%;
@@ -254,6 +253,48 @@ footer {
 
 }
 
+/* Hover over image effect 
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
+
+
+.focus{
+  position: relative;
+  width: 100%;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #78C1BF;
+
+}
+
+.focus:hover .overlay{
+ opacity: 1;
+}
+
+.overlay-text{
+  color: black;
+  font-size:3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+*/
 .special img{
   width: 25%;
 }
