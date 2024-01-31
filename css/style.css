@@ -237,10 +237,17 @@ footer {
   padding: 2%;
 }
 
+.middle{
+  text-align: center;
+}
+
+.middle p{
+  font-size: 1.5em;
+}
+
 .middle img{
   flex: 25%;
   max-width: 80%;
-  padding: 2%;
   width: 80%;
 }
 
@@ -363,15 +370,18 @@ a{
   }
 
 a:link{
+  background-color: #78C1BF;
   color: black;
 }
 
 a:visited {
+  background-color: #78C1BF;
   color: white;
 }
 
 a:hover {
   background-color: #78C1BF;
+  font-size:1%;
 }
 
 /* Shapes */
