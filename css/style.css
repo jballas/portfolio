@@ -232,7 +232,7 @@ footer {
 }
 
 .column{
-  flex: 25%;
+  flex: 45%;
   max-width: 50%;
   padding: 2%;
 }
@@ -268,7 +268,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
 .focus{
   position: relative;
   width: 100%;
-  height: 300px;
+
 }
 
 .overlay{
@@ -310,6 +310,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
 .feature{
   background-color: #78C1BF;
   color: black;
+  width: 100%;
   padding-right: 50%;
 }
 
