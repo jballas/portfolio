@@ -153,7 +153,6 @@ ul, li {
 
 #location, #identity {
   align-items: center;
-  border: black solid 5px;
   width:auto
 }
 
@@ -190,7 +189,6 @@ footer {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
-  
 }
 
 /* Add a color to the active/current link */
