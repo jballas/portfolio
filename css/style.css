@@ -359,12 +359,12 @@ a{
 
 a:link{
   background-color: #78C1BF;
-  color: #1b82ea;
+  color: black;
 }
 
 a:visited {
   background-color: #78C1BF;
-  color: white;
+  color: black;
 }
 
 a:hover {
