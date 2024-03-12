@@ -9,6 +9,14 @@ var tri = {
     leftY: 70
 }
 
+var E ={
+    A: 1,
+    B: 5,
+    C: 90,
+    D: 15
+    
+}
+
 // Variable for movement
 var moveX = 2;
 var moveY = 2;
@@ -25,7 +33,7 @@ var opacity
 
 // Setup fuction
 function setup() {
-    var cnv = createCanvas(windowWidth/3, 400 );
+    var cnv = createCanvas(windowWidth/3, 200 );
     //cnv.position(0,0);
     cnv.parent("canvas_art");
     background(255);
@@ -44,9 +52,9 @@ function draw() {
 
     // Set values to color variables. Using the Absolute Value to keep them from being decimales.
     red = random( abs(20), abs(25) );
-    green = 10;
+    green = 100;
     blue = random( abs(100), abs(150) );
-    opacity = random ( abs(100), abs(255) );
+    opacity = random ( abs(10), abs(100) );
 
     // Move the triangles around using translate and the randomwalker technique, restrict movement with modulo.
     translate( 100, 100);
@@ -67,6 +75,13 @@ function draw() {
     // Animate the pinwheel rotation
     flip -= random(360);
 
+
+    // Circle
+    fill( red, green, blue, opacity );
+    stroke(E.A, E.B, E.C, E.D);
+    ellipse(E.A, E.B, E.C, E.D)
+    rotate( radians ( flip ) );
+/*
     // Triangle
     fill( red, green, blue, opacity );
     rotate( radians ( flip ) );
@@ -87,4 +102,6 @@ function draw() {
 
     tri.rightX %= 100;
     tri.rightY %= 50;
+*/
+
     }
