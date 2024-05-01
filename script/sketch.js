@@ -12,13 +12,13 @@ var tri = {
 var E ={
     A: 1,
     B: 5,
-    C: 90,
-    D: 15
+    C: 50,
+    D: 150
     
 }
 
 // Variable for movement
-var moveX = 2;
+var moveX = 4;
 var moveY = 2;
 
 // Variable for pinwheel rotation
@@ -54,7 +54,7 @@ function draw() {
     red = random( abs(20), abs(25) );
     green = 100;
     blue = random( abs(100), abs(150) );
-    opacity = random ( abs(10), abs(100) );
+    opacity = random ( abs(2), abs(50) );
 
     // Move the triangles around using translate and the randomwalker technique, restrict movement with modulo.
     translate( 100, 100);
@@ -70,18 +70,24 @@ function draw() {
     green = map( moveX, 0, 255, 100, width );
 
     // Add pinwheel rotation value at 90 degrees
-    flip = 90;
+    flip = 45;
 
     // Animate the pinwheel rotation
     flip -= random(360);
 
 
+    //Square
+       fill( red, green, blue, opacity );
+       stroke(E.A, E.B, E.C, E.D);
+       rect(E.A, E.B, E.C, E.D)
+       rotate( radians ( flip ) );
+/*
     // Circle
     fill( red, green, blue, opacity );
     stroke(E.A, E.B, E.C, E.D);
     ellipse(E.A, E.B, E.C, E.D)
     rotate( radians ( flip ) );
-/*
+
     // Triangle
     fill( red, green, blue, opacity );
     rotate( radians ( flip ) );
