@@ -12,7 +12,7 @@ var E ={
 
 // Variable for movement
 var moveX = 40;
-var moveY = 2;
+var moveY = 20;
 
 // Variable for flower rotation
 var flip;
