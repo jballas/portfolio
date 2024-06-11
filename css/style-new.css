@@ -1,0 +1,320 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* FONTS */
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+  font-family: "Archivo Black", sans-serif;
+  font-size: 7vw;
+  margin-bottom: -40px;
+}
+
+h2{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.2vw;
+  text-transform: uppercase;
+  font-size: 6vw;
+
+}
+
+h3{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 2vw;
+}
+
+h4{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 2vw;
+}
+
+.project-details{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.8vw;
+  opacity: 70%;
+}
+
+ul, li {
+  line-height: 1.5;
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 1.5;
+ }
+
+.extra{
+  text-transform: uppercase;
+    font-size: 5.2vw;
+    margin-bottom: -2%;
+}
+
+.extraSM{
+  text-transform: uppercase;
+  font-size: 2.2vw;
+}
+
+
+.extraLG{
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  text-align: center;
+  line-height: .75em;
+  font-size: 5vw;
+  width: 50%vw;
+  height:200px;
+  position: relative;
+  left: 1em;
+  top: -150px;
+  overflow: hidden; 
+}
+
+/* Sections */
+
+.container {
+  width: 100%vw;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+    
+.header{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  position: relative;
+  text-align: center;
+  margin: .625rem;
+  overflow: hidden;
+}
+.splash{
+  background-color: #001b36;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash img{
+ width: 70%;
+ overflow: hidden;
+}
+
+.gallery-text {
+  width: 60%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.case-study{
+  margin: 0;
+}
+
+.feature-text{
+  flex: 10%;
+  max-width: 20%;
+  padding: 2%;
+  border: #999999 solid 1.25px;
+}
+
+.feature-image{
+  flex: 5%;
+  max-width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first{
+  background-color: #0085ff;
+}
+
+.second{
+  background-color: #00bfff;
+}
+
+.third{
+  background-color: #eb7a65;
+}
+
+.feature-image img{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+
+
+footer {
+  background-color: #001b36;
+  color: white;
+  font-size: .8em;
+  font-weight: bold;
+  padding: 5%;
+  text-align: center;
+}
+.logo{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width: 10%;
+}
+
+.location {
+  align-items: center;
+  width: 3%;
+}
+.academy-badge img{
+  width: 50%;
+}
+
+
+/*Source from https://www.w3schools.com/howto/howto_css_topnav_right.asp*/
+/* Add a background color to the top navigation */
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  background-color: #27b3ae;
+  overflow: hidden;
+  float: right;
+}
+
+.topnav a{
+  float: left;
+  background-color: #27b3ae;
+  text-align: center;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #34c0ad;
+  color: black;
+}
+
+
+/* Image grid layout from W3Schools: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column{
+  flex: 45%;
+  max-width: 50%;
+  padding: 2%;
+}
+
+.column img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+
+}
+
+
+/* LINKS */
+
+a{
+  text-decoration: none;
+  }
+
+a:link{
+  background-color: #78C1BF;
+  color: black;
+}
+
+a:visited {
+  background-color: #78C1BF;
+  color: black;
+}
+
+a:hover {
+  background-color: #78C1BF;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+}
+
+/* Responsive layout - makes the 1 columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+}
+
+
+
+/* Shapes */
+.arrow{
+    display:inline-block;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 25px solid #001B36;
+    border-bottom: 15px solid transparent;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+.line{
+  width: 50px;
+  height: 0;
+  border-bottom: 5px solid #001B36;
+  transform: rotate(20deg);
+
+}
+
+
+
