@@ -114,13 +114,14 @@ p {
   width: 100%vw;
   padding-left: 5%;
   padding-right: 5%;
+
 }
     
 .header{
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .header-content {
@@ -128,7 +129,9 @@ p {
   text-align: center;
   margin: .625rem;
   overflow: hidden;
+
 }
+
 .splash{
   background-color: #001b36;
   padding-top: 2%;
@@ -136,6 +139,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .splash img{
@@ -281,6 +285,63 @@ a:hover {
   color: black;
 }
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (min-device-width: 1200px) {
+
+  h1{
+    font-size: 3vw;
+    margin-bottom: -20px;
+  }
+
+  h2{
+    font-size: 2vw;
+    margin-bottom: 0px;
+  }
+
+  h3{
+    font-size: 1vw;
+  }
+
+  .extra{
+    text-transform: uppercase;
+    font-size: 4.2vw;
+    margin-top: -2%;
+  }
+
+  .main-about{
+    font-size: .8vw;
+  }
+
+  .project-details{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: .8vw;
+    opacity: 70%;
+  }  
+
+  .container{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .splash img{
+   width: 25%;
+  }
+
+  .main-text{
+    width: 70%;
+    padding-top: 10%;
+  }
+
+  .feature-image{
+    flex: 5%;
+    max-width: 100%;
+    padding: 2%;
+  }
+
+
+}
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -321,7 +382,7 @@ a:hover {
     padding: 2%;
   }
 
-  .gallery-text{
+  .main-text{
     width: 100%;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -377,7 +438,7 @@ a:hover {
     margin-bottom: 20px;
   }
 
-  .gallery-text{
+  .main-text{
     width: 100%;
     padding-top: 8%;
     padding-bottom: 8%;
