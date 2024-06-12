@@ -32,16 +32,16 @@ body {
 
 h1{
   font-family: "Archivo Black", sans-serif;
-  font-size: 7vw;
-  margin-bottom: -40px;
+  font-size: 3vw;
+  margin-bottom: -10px;
 }
 
 h2{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  letter-spacing: 1.2vw;
+  letter-spacing: 5px;
   text-transform: uppercase;
-  font-size: 6vw;
+  font-size: 2vw;
 
 }
 
@@ -74,7 +74,7 @@ ul, li {
   padding: 0;
 }
 
-p{
+p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 2vw;
@@ -85,9 +85,10 @@ p{
   text-transform: uppercase;
     font-size: 5.2vw;
     margin-bottom: -2%;
+    margin-top: 3%;
 }
 
-.extraSM{
+.extra-tag{
   text-transform: uppercase;
   font-size: 2.2vw;
 }
@@ -130,38 +131,37 @@ p{
 }
 .splash{
   background-color: #001b36;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .splash img{
- width: 70%;
+ width: 35%;
  overflow: hidden;
 }
 
-.gallery-text {
+.gallery-text{
   width: 60%;
-  padding-top: 10%;
-  padding-bottom: 10%;
 }
 
 .case-study{
   margin: 0;
+  padding: 5%;
 }
 
 .feature-text{
   flex: 10%;
-  max-width: 20%;
+  max-width: 30%;
   padding: 2%;
   border: #999999 solid 1.25px;
 }
 
 .feature-image{
-  flex: 5%;
-  max-width: 100%;
+  flex: 100%;
+  max-width: 70%;
   padding: 2%;
   display: flex;
   justify-content: center;
@@ -181,12 +181,10 @@ p{
 }
 
 .feature-image img{
-  width: 50%;
+  width: 40%;
   margin: auto;
   display: block;
 }
-
-
 
 footer {
   background-color: #001b36;
@@ -272,26 +270,132 @@ a{
   }
 
 a:link{
-  background-color: #78C1BF;
   color: black;
 }
 
 a:visited {
-  background-color: #78C1BF;
   color: black;
 }
 
 a:hover {
-  background-color: #78C1BF;
+  color: black;
 }
 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-}
 
+  h1{
+    font-size: 7vw;
+    margin-bottom: -20px;
+  }
+
+  h2{
+    font-size: 6vw;
+    margin-bottom: 0px;
+  }
+
+  .extra{
+    text-transform: uppercase;
+    font-size: 7.2vw;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  .container{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .splash{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  .splash img{
+   width: 60%;
+  }
+
+  .case-study{
+    margin: 0;
+    padding: 2%;
+  }
+
+  .gallery-text{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .feature-image{
+    flex: 5%;
+    max-width: 100%;
+    padding: 2%;
+  }
+
+}
 /* Responsive layout - makes the 1 columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+
+  h1{
+    font-size: 6vw;
+    margin-bottom: -20px;
+  }
+
+  h2{
+    font-size: 5vw;
+    margin-bottom: 0px;
+  }
+
+  h3{
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+    margin-bottom: -10px;
+  }
+  
+  .extra{
+    text-transform: uppercase;
+    font-size: 7.2vw;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .extra-tag{
+    text-transform: uppercase;
+    font-size: 4.2vw;
+  }
+
+  p {
+    font-size: 2.8vw;
+  }
+
+  .project-details{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 2.8vw;
+    opacity: 70%;
+    margin-bottom: 20px;
+  }
+
+  .gallery-text{
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    padding: 2%;
+  }
+
+  .feature-text{
+    flex: 100%;
+    max-width: 100%;
+    padding: 2%;
+    border: #999999 solid 1.25px;
+  }
+
 }
 
 
