@@ -83,7 +83,6 @@ ul, li {
   background-color: #34c0ad;
   color: black;
   width: 100%;
-  border: red solid 5px
 }
 
 .extra{
@@ -262,6 +261,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
 /* Responsive layout - makes the 1 columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 
+
   .column {
     flex: 100%;
     max-width: 100%;
@@ -269,7 +269,6 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
   .feature{
     background-color: #78C1BF;
     color: black;
-    padding-right: 20%;
   }
 
   .right-bar{
@@ -277,6 +276,10 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
     padding-top: 10%;
     width: 50%;
     
+  }
+
+  .identity{
+    width: 100%;
   }
 
 }
