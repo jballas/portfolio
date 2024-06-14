@@ -7,12 +7,12 @@ body {
 
 h1{
   font-family: 'Courgette', cursive;
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 h2{
   font-family: 'Courgette', cursive;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 h3{
@@ -61,8 +61,6 @@ ul, li {
   position: relative;
   width: 100vw;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .header-content {
@@ -242,7 +240,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
 @media screen and (max-width: 800px) {
 
   h1 {
-    font-size: 4em;
+    font-size: 2em;
   }
 
   .column{
@@ -261,14 +259,13 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
 /* Responsive layout - makes the 1 columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 
+  h1 {
+    font-size: 1.5em;
+  }
 
   .column {
     flex: 100%;
     max-width: 100%;
-  }
-  .feature{
-    background-color: #78C1BF;
-    color: black;
   }
 
   .right-bar{
