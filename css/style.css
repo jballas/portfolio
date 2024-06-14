@@ -1,10 +1,8 @@
-
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
 }
-
 
 
 h1{
@@ -43,11 +41,6 @@ ul, li {
    line-height: 1.5;
  }
 
-.extra{
-  text-transform: uppercase;
-    font-size: 2em;
-}
-
 .extraLG{
   text-transform: uppercase;
   letter-spacing: -5px;
@@ -84,6 +77,19 @@ ul, li {
 .section {
   padding: 2% 2% 2% 5%;
   /*display: none;*/
+}
+
+.feature{
+  background-color: #34c0ad;
+  color: black;
+  width: 100%;
+  border: red solid 5px
+}
+
+.extra{
+  text-transform: uppercase;
+  font-size: 1.8em;
+  width: 80%;
 }
 
 .identity{ 
@@ -221,11 +227,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
   width: 50%;
   opacity: 0.2;
 }
-.feature{
-  background-color: #34c0ad;
-  color: black;
-  width: 100%;
-}
+
 
 .right-bar{
   position: relative;
@@ -281,17 +283,11 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
 
 /* MENU */
 
-a{
-  text-decoration: none;
-  }
-
 a:link{
-  background-color: #78C1BF;
   color: black;
 }
 
 a:visited {
-  background-color: #78C1BF;
   color: black;
 }
 
