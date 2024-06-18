@@ -11,15 +11,14 @@ h1{
 }
 
 h2{
-  font-family: 'Courgette', cursive;
+  font-family: 'Montserrat', cursive;
   font-size: 3vw;
-}
-
+  margin-top: -10px;
+ }
 h3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5vw;
-  text-align: center;
-  padding: 1%;
+  font-size: 1.5vw;
+
 }
 
 h4{
@@ -113,6 +112,58 @@ footer {
 .location img{
   width: 5%;
 }
+
+.project-name{
+  width: 30%;
+  padding-left: 10%;
+  padding-top: 15%;
+  padding-bottom: 5%;
+
+}
+
+.project{
+  padding-left: 10%;
+  padding-top: 15%;
+  padding-bottom: 35%;
+  font-size: .8em;
+
+}
+
+.project-type p{
+  text-transform: uppercase;
+  opacity: 60%;
+}
+
+.project-details{
+  width: 30%;
+  float: left;
+  text-align:justify;
+}
+
+.project-gallery{
+  width: 60%;
+  float: right;
+  display: inline-grid;  
+  grid-template-columns: auto auto;
+  column-gap: 2%;
+  row-gap: 2%;
+  padding: 2%;
+  background-color:#78C1BF
+}
+
+.project-gallery-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-gallery img{
+  width: 200px;
+
+
+}
+
+
 
 
 /*Source from https://www.w3schools.com/howto/howto_css_topnav_right.asp*/
