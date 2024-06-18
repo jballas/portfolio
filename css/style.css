@@ -197,12 +197,20 @@ footer {
 .row {
   display: flex;
   flex-wrap: wrap;
+    justify-content: center;
+  align-items: center;
 }
 
 .column{
   flex: 45%;
   max-width: 50%;
   padding: 2%;
+}
+
+.video-section{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .middle{
@@ -236,7 +244,6 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
 .focus{
   position: relative;
   width: 100%;
-
 }
 
 .overlay{
