@@ -8,6 +8,7 @@ body {
 h1{
   font-family: 'Courgette', cursive;
   font-size: 4vw;
+  padding-left: 2%;
 }
 
 h2{
@@ -18,7 +19,7 @@ h2{
 
 h3{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
 h4{
@@ -295,7 +296,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
   }
 
   h2{
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
 
   .column{
@@ -329,6 +330,9 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
     overflow: hidden; 
   }
 
+  .feature p{
+    font-size: .8em;
+  }
   ul li{
     font-size: .8em;
   }
@@ -343,7 +347,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
   }
 
   .special img{
-    width: 30%;
+    width: 40%;
   }
 
   .section{
