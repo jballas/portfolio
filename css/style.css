@@ -60,6 +60,7 @@ ul, li {
   position: relative;
   width: 100vw;
   display: flex;
+  padding-left: 2%;
 }
 
 .header-content {
@@ -68,7 +69,6 @@ ul, li {
   text-align: center;
   margin: .625rem;
   overflow: hidden;
-
 }
 
 .section {
@@ -79,7 +79,7 @@ ul, li {
 .feature{
   background-color: #34c0ad;
   color: black;
-  width: 100%vw;
+  width: 100%;
 }
 
 .extra{
@@ -217,6 +217,10 @@ footer {
   background-color: #27b3ae;
   overflow: hidden;
   float: right;
+  /* sticky position of navigation doesn't work*/
+/* position: -webkit-sticky; /* Safari */
+/* position: sticky;
+  top: 0;*/
 }
 
 .topnav a{
@@ -312,6 +316,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
   width: 100%;
   opacity: 0;
   transition: .5s ease;
+  background: white;
 }
 
 
