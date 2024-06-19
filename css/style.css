@@ -15,10 +15,10 @@ h2{
   font-size: 3vw;
   margin-top: -10px;
  }
+
 h3{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5vw;
-
 }
 
 h4{
@@ -47,10 +47,9 @@ ul, li {
   line-height: .75em;
   font-size: 5vw;
   width: 50%vw;
-  height:200px;
+  height:auto;
   position: relative;
-  left: 1em;
-  top: -150px;
+  top: -20vw;
   overflow: hidden; 
 }
 
@@ -72,7 +71,7 @@ ul, li {
 }
 
 .section {
-  padding: 2% 2% 2% 5%;
+  padding: 2% 2% 2% 2%;
   /*display: none;*/
 }
 
@@ -231,7 +230,10 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 60%;
+}
 
+.special{
+  padding: -2%;
 }
 
 .special img{
@@ -292,14 +294,18 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
     font-size: 2em;
   }
 
+  h2{
+    font-size: 1.8em;
+  }
+
   .column{
     flex: 40%;
     max-width: 50%;
+    padding: 2em;
   }
 
  .menu {
       display: block;
-
   }
  
 
@@ -319,6 +325,10 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
 
   .identity{
     width: 100%;
+  }
+
+  .special img{
+    width: 30%;
   }
 
 }
