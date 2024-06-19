@@ -137,7 +137,6 @@ footer {
 .project-details{
   width: 30%;
   float: left;
-  text-align:justify;
 }
 
 .project-gallery{
@@ -197,7 +196,7 @@ footer {
 .row {
   display: flex;
   flex-wrap: wrap;
-    justify-content: center;
+  justify-content: center;
   align-items: center;
 }
 
