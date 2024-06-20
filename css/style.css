@@ -37,6 +37,7 @@ ul, li {
   padding: 0;
 }
  p{
+  font-family: 'Montserrat', sans-serif;
   font-size: 1em;
    line-height: 1.5;
  }
@@ -323,6 +324,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
   opacity: 0;
   transition: .5s ease;
   background: white;
+
 }
 
 
@@ -331,7 +333,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
 }
 
 .overlay-text{
-  color: black;
+  color: #777;
   font-size:1em;
   position: absolute;
   top: 50%;
