@@ -148,17 +148,19 @@ footer {
   column-gap: 2%;
   row-gap: 2%;
   padding: 2%;
-  background-color:#78C1BF
+  background-color:#78C1BF;
+
 }
 
 .project-gallery-section{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .project-gallery img{
-  width: 200px;
+  width: 100%;
 
 
 }
