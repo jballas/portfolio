@@ -94,6 +94,7 @@ ul, li {
 }
 
 footer {
+  width: 100%;
   font-size: .8em;
   font-weight: bold;
   padding: 0;
@@ -115,19 +116,18 @@ footer {
 }
 
 .project-name{
-  width: 30%;
+  width: 28%;
   padding-left: 10%;
-  padding-top: 15%;
+  padding-top: 10%;
   padding-bottom: 5%;
-
+  margin-top: 5%;
 }
 
 .project{
   padding-left: 10%;
-  padding-top: 15%;
+  margin-top: 15%;
   padding-bottom: 35%;
   font-size: .8em;
-
 }
 
 .project-type p{
@@ -138,6 +138,7 @@ footer {
 .project-details{
   width: 30%;
   float: left;
+
 }
 
 .project-gallery{
@@ -161,8 +162,6 @@ footer {
 
 .project-gallery img{
   width: 100%;
-
-
 }
 
 .shadow-pop-br:hover {
