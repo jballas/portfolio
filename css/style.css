@@ -58,11 +58,11 @@ ul, li {
 /* Sections */
     
 .header{
-  position: relative;
   width: 100vw;
   display: flex;
   padding-left: 2%;
 }
+
 
 .header-content {
   position: relative;
@@ -209,6 +209,7 @@ footer {
             transform: translateX(-8px) translateY(-8px);
   }
 }
+
 
 
 /*Source from https://www.w3schools.com/howto/howto_css_topnav_right.asp*/
